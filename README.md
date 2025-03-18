@@ -9,6 +9,11 @@ Este é um projeto desenvolvido com **Vue.js** que exibe informações sobre per
 
 ---
 
+## 🌐 Acesse o Projeto Online
+Você pode acessar a versão ao vivo do projeto aqui: [Rick and Morty Search](https://rick-morty-search-6ewpx7y7c-victor-ferreiras-projects-a5e0d885.vercel.app/)
+
+---
+
 ## 🌟 Funcionalidades
 
 - 🔍 **Pesquisa**: Pesquise personagens por nome ou status.
