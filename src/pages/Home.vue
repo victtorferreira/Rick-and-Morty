@@ -71,15 +71,15 @@
             <div class="absolute inset-0 bg-gray-800 opacity-50 backdrop-blur-lg"></div>
 
             <div class="bg-white p-6 rounded-lg w-96 z-10 shadow-lg">
-                <h2 class="text-2xl font-bold mb-4">{{ selectedCharacter.name }}</h2>
-                <img :src="selectedCharacter.image" :alt="selectedCharacter.name" class="w-full rounded-lg mb-4" />
-                <p><strong>Status:</strong> {{ selectedCharacter.status }}</p>
+                <h2 class="text-2xl font-bold mb-4">{{ selectedCharacter?.name }}</h2>
+                <img :src="selectedCharacter?.image" :alt="selectedCharacter?.name" class="w-full rounded-lg mb-4" />
+                <p><strong>Status:</strong> {{ selectedCharacter?.status }}</p>
                 <p>
                     <strong>Total de Episódios:</strong>
-                    {{ selectedCharacter.episode.length }}
+                    {{ selectedCharacter?.episode.length }}
                 </p>
                 <p>
-                    <strong>Localização</strong>: {{ selectedCharacter.location.name }}
+                    <strong>Localização</strong>: {{ selectedCharacter?.location.name }}
                 </p>
                 <button @click="closeModal" class="mt-4 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">
                     Fechar
