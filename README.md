@@ -49,3 +49,15 @@ Siga os passos abaixo para rodar o projeto localmente:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/victtorferreira/Rick-and-Morty.git
+2. Acessse o diretório do projeto:
+   ```bash
+   cd Rick-and-Morty   
+3. Instale as dependências:
+   ```bash
+   npm install
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+5. Acesse a aplicação no navegador
+   ```bash
+   http://localhost:5173
